@@ -1,0 +1,43 @@
+body {
+    font-family: "source sans pro", "hiragino kaku Gothic ProN",Meiryo, Arial, sans-serif;
+    font-size: 15px;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#main-visual {
+    position: relative;
+    height: 400px;
+}
+#main-message {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #04414A;
+    color: #ffffff;
+    border-radius: 0 0 150px 0;
+    width: 100%;
+    height: 100%;
+    max-width: 620px;
+    z-index: 1;
+}
+#main-massage h1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+#main-massage p {
+    font-size: 28px;
+}
+
+#main-visual img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    max-width: 600px;
+    z-index: 10;
+}
+
